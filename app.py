@@ -9,7 +9,7 @@ from forms import RegisterForm, LoginForm, FeedbackForm, DeleteForm
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql:///flask-feedback"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql:///feedback_exercise"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = True
 app.config['SECRET_KEY'] = "shhhhh"
